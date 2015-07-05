@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	height: 150px;
+	border: 2px solid #008000;
+	border-radius: 2px;
+	min-width: 850px;
+}
+
+footer {
+	min-width: 850px
+}
+
+#logoHeader {
+	width: 150px;
+	float: left;
+	height: 150px;
+}
+
+#titleHeader {
+	height: 150px;
+	min-width: 600px;
+	float: left;
+	position: relative;
+	padding: 0 25px;
+}
+
+#logoImg {
+	width: 150px;
+}
+
+#titleText {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+    height: 30%;
+    margin: auto;
+}
+.itemContent {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+#navContent {
+	margin: 3px 0 0 3px;
+	width: 200px;
+	float: left;
+}
+
+#contentWrap {
+	min-width: 850px;
+}
+
+#content {
+	border: 1px solid #008000;
+	border-radius: 2px;
+	margin-left: 205px;
+}
+
+.clear {
+	clear:both;
+	float:none;
+	height:0; 
+	font-size:0;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid #008000;
+    height: 30px;
+    padding: 5px 10px 1px 10px;
+}
+
+#topContent {
+	text-align: center;
+	width: 100%;
+}
+
+.item {
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+	border: 1px solid #008000;
+	border-radius: 2px;
+}
+
+.itemText {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 15%;
+    margin: auto;
+}
+
+.clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+}
+
+.footerItem, .bottomItem {
+	height: 150px;
+	border: 1px solid #008000;
+	border-radius: 2px;
+	float: left;
+	width: 33%;
+}
+
+.bottomItem {
+	line-height: 150px;
+}
+
+.footerItem {
+	height: 100px;
+}
+
+.footerItemContent, .footerBottomItem {
+	width: 100px;
+	margin: 40px auto;
+}
+
+#bottomFooter {
+	height: 100px;
+	border: 1px solid #008000;
+	border-radius: 2px;
+
+}
+
+#ballItem {
+	position: relative;
+}
+
+#ballItem:before {
+	content: ''; 
+    position: absolute; 
+    left: 210px;
+    bottom: 110px; 
+	border: 20px solid transparent;
+	border-top: 20px solid green;
+	border-right: 20px solid green;
+}
+
+#ballItem:after {
+	content: ''; 
+    position: absolute; 
+    left: 230px;
+    bottom: 130px; 
+	border: 10px solid transparent;
+	border-top: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
